@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 0
-  companyName: UnityTechnologies
-  productName: BoatAttack
+  companyName: Unity Korea
+  productName: BoatAttack Roadshow
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -169,10 +169,10 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.UnityTechnologies.BoatAttack
+    Android: com.UnityKorea.BoatAttackRoadshow
     Lumin: com.DefaultCompany.BoatAttack
-    Standalone: com.UnityTechnologies.BoatAttack
-    iPhone: com.UnityTechnologies.BoatAttack
+    Standalone: com.Unity-Korea.BoatAttack-Roadshow
+    iPhone: com.Unity-Korea.BoatAttack-Roadshow
   buildNumber:
     Standalone: 0
     VisionOS: 0
