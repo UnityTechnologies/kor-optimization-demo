@@ -891,14 +891,14 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     : URP;USE_CUSTOM_METADATA
-    Android: URP;USE_CUSTOM_METADATA
+    Android: URP
     Nintendo Switch: URP;USE_CUSTOM_METADATA
     PS4: URP;USE_CUSTOM_METADATA
-    Standalone: URP;USE_CUSTOM_METADATA
+    Standalone: URP
     WebGL: URP;USE_CUSTOM_METADATA
     Windows Store Apps: URP;USE_CUSTOM_METADATA
     XboxOne: URP;USE_CUSTOM_METADATA
-    iPhone: URP;USE_CUSTOM_METADATA
+    iPhone: URP
     tvOS: URP;USE_CUSTOM_METADATA
   additionalCompilerArguments: {}
   platformArchitecture:
