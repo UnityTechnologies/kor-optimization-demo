@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowTitle: Boat Attack | Universal RP Demo Project
   HeaderTexture: {fileID: 2800000, guid: 20f44f4e6dce741088b8aab3af0bb8e5, type: 3}
+  dockable: 0
   WindowWidth: 640
   WindowHeight: 640
   DiscoverListWidth: 180
   EnableShowAtStartup: 1
   PreferenceName: Discover
+  filterMode: 0
+  Tags: 
   Title: Welcome to the Boat Attack demo project!
+  Image: {fileID: 0}
   Description: 'This demo makes use of the Universal Render Pipeline and is designed
     to showcase and display examples of how to use some of the features included
     with Universal RP and other exciting features available in Unity.
@@ -35,12 +39,14 @@ MonoBehaviour:
     about how to do so please check the Addressables package manual.'
   Scenes:
   - Title: Main menu
+    Image: {fileID: 0}
     Description: This is where you can start the project in playmode and try the
       games full vertical slice.
     SceneSetups: []
     SingleScenes:
     - {fileID: 102900000, guid: c817c1b09586c49e5b4a849ce1cf119b, type: 3}
   - Title: Demo Island
+    Image: {fileID: 0}
     Description: This scene (demo_Island) contains the island scene with everything
       setup for the boats to start racing in AI mode.
     SceneSetups: []

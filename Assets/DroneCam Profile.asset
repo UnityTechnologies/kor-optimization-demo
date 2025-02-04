@@ -13,17 +13,12 @@ MonoBehaviour:
   m_Name: PaniniProjection
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   distance:
     m_OverrideState: 1
     m_Value: 0.25
-    min: 0
-    max: 1
   cropToFit:
     m_OverrideState: 0
     m_Value: 1
-    min: 0
-    max: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
