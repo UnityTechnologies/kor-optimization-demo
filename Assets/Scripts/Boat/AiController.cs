@@ -12,7 +12,7 @@ namespace BoatAttack
     public class AiController : BaseController
     {
         [NonSerialized] public NavMeshPath NavPath;// navigation path
-        private Vector3[] _pathPoint;
+        private Vector3[] _pathPoint = Array.Empty<Vector3>();
         private Vector3 _curWpPos;
         private int _curPoint;
         [NonSerialized] public int CurWp;
