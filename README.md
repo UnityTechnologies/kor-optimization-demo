@@ -1,2 +1,8 @@
-# kor-optimization-demo
-Hands-on optimization demo for Unity Korea Roadshow
+# 유니티 빠른 최적화 점검 핸즈온
+빠른 유니티 최적화 점검하기 핸즈온에서 사용할 예제 프로젝트 입니다.
+
+## 준비물
+다음과 같은 기기들이 필요합니다.
+
+## 빌드 준비하기
+
