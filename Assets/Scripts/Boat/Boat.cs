@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using Cinemachine;
 using BoatAttack.UI;
+using UnityEngine.Profiling;
 using Object = UnityEngine.Object;
 
 namespace BoatAttack
@@ -80,16 +81,23 @@ namespace BoatAttack
 
         private void Update()
         {
-            if (RaceManager.RaceStarted)
+            if (!RaceManager.RaceStarted) return;
+            
+            Profiler.BeginSample("UpdateLaps");
+            UpdateLaps();
+            Profiler.EndSample();
+            
+            if (RaceUi)
             {
-                UpdateLaps();
-
-                if (RaceUi)
-                {
-                    RaceUi.UpdatePlaceCounter(Place);
-                    RaceUi.UpdateSpeed(engine.VelocityMag);
-                }
+                Profiler.BeginSample("UpdatePlace");
+                RaceUi.UpdatePlaceCounter(Place);
+                RaceUi.UpdateSpeed(engine.VelocityMag);
+                Profiler.EndSample();
             }
+
+            Profiler.BeginSample("CalculatePi");
+            HeavyFunctions.CalculatePi();
+            Profiler.EndSample();
         }
 
         private void LateUpdate()
