@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public static class HeavyFunctions
 {
     public static float CalculatePi(int iterations = 1000)
