@@ -3,7 +3,7 @@
 
 ## 예제 프로젝트 다운로드하기
 이 링크를 눌러 예제 프로젝트를 다운로드합니다.
-
+* [**다운로드 하기**](https://github.com/UnityTechnologies/kor-optimization-demo/releases/download/1.0/kor-optimization-demo.zip)
 
 > 주의사항: 이 저장소는 Git LFS를 사용합니다. 깃허브 오른쪽 상단의 초록색 버튼 > 'Downloading Zip'으로는 파일을 정상적으로 다운로드 할 수 없습니다!
 
