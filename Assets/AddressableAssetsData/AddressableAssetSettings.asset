@@ -15,9 +15,10 @@ MonoBehaviour:
   m_DefaultGroup: ae971df5c2b654af9a3670c7d1a6fc27
   m_currentHash:
     serializedVersion: 2
-    Hash: ff04061de66affc53b25d104bac7c5d8
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
+  m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
   m_InternalIdNamingMode: 0
@@ -31,7 +32,7 @@ MonoBehaviour:
     m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
   m_IgnoreUnsupportedFilesInBuild: 0
   m_UniqueBundleIds: 0
-  m_EnableJsonCatalog: 0
+  m_EnableJsonCatalog: 1
   m_NonRecursiveBuilding: 0
   m_CCDEnabled: 0
   m_maxConcurrentWebRequests: 500
@@ -109,10 +110,9 @@ MonoBehaviour:
   m_CertificateHandlerType:
     m_AssemblyName: 
     m_ClassName: 
-  m_ActivePlayerDataBuilderIndex: 3
+  m_ActivePlayerDataBuilderIndex: 2
   m_DataBuilders:
   - {fileID: 11400000, guid: c48a9382c82c04ec9a37f847abf166a2, type: 2}
-  - {fileID: 11400000, guid: 8889f0da1cd4f4d9990fc97212b7bc4d, type: 2}
   - {fileID: 11400000, guid: a78db7510dabe40ad8086ded61ef3702, type: 2}
   - {fileID: 11400000, guid: 760e57f7852f74520bd905e58230848f, type: 2}
   m_ActiveProfileId: bb810b2e0c37a46518903b769881a40b
