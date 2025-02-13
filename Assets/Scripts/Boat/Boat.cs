@@ -83,21 +83,13 @@ namespace BoatAttack
         {
             if (!RaceManager.RaceStarted) return;
             
-            // Profiler.BeginSample("UpdateLaps");
             UpdateLaps();
-            // Profiler.EndSample();
             
             if (RaceUi)
             {
-                // Profiler.BeginSample("UpdatePlace");
                 RaceUi.UpdatePlaceCounter(Place);
                 RaceUi.UpdateSpeed(engine.VelocityMag);
-                // Profiler.EndSample();
             }
-
-            // Profiler.BeginSample("CalculatePi");
-            HeavyFunctions.CalculatePi();
-            // Profiler.EndSample();
         }
 
         private void LateUpdate()
