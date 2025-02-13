@@ -50,7 +50,7 @@
 <br>만약 모바일 기기를 사용하지 않는 경우, 데스크톱 빌드를 사용할 수 있습니다.
 
 * 반드시 **개발자용 빌드(Development Build)** 설정을 활성화하고 빌드해주세요!
-![번들 식별자 필드](./readme-image02.png)
+![번들 식별자 필드](readme-image02.png)
 
 ### 식별자 수정하기
 안드로이드의 경우 식별자를 수정하지 않아도 됩니다.
@@ -58,7 +58,7 @@
 
 따라서 iOS 빌드를 할 경우, **Bundle Identifier**를 다른 사람과 중복되지 않을 아무 다른 이름으로 변경하고 빌드해주세요.
 
-![번들 식별자 필드](./readme-image01.png)
+![번들 식별자 필드](readme-image01.png)
 
 예를 들어 com.unitykorea.boatattack을 com.jemin.myboatattack 같은 형태로 변경하고 빌드합니다.
 
