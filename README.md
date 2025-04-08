@@ -3,7 +3,7 @@
 
 ## 예제 프로젝트 다운로드하기
 이 링크를 눌러 예제 프로젝트를 다운로드합니다.
-* [**다운로드 하기**](https://github.com/UnityTechnologies/kor-optimization-demo/releases/download/1.0/kor-optimization-demo.zip)
+* [**다운로드 하기**](https://github.com/UnityTechnologies/kor-optimization-demo/releases/download/1.1/kor-optimization-demo.zip)
 
 > 주의사항: 이 저장소는 Git LFS를 사용합니다. 깃허브 오른쪽 상단의 초록색 버튼 > 'Downloading Zip'으로는 파일을 정상적으로 다운로드 할 수 없습니다!
 
@@ -22,7 +22,7 @@
 다음 프로그램들이 노트북에 미리 설치되어 있어야 합니다.
 
 * **최신 유니티 허브**
-* **유니티 에디터 6000.0.35f1** 또는 그 이상의 버전
+* **유니티 에디터 6000.0.39f1** 또는 그 이상의 버전
 * 유니티 에디터에 다음 추가 모듈도 함께 설치 필요
     * **Android Build Support**
         * OpenJDK
